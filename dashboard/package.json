@@ -1,0 +1,21 @@
+{
+  "name": "mcp-router-dashboard",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "dotnet fable Dashboard.fsproj --noCache && vite build",
+    "watch": "concurrently \"dotnet fable watch Dashboard.fsproj --noCache\" \"vite\""
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "vite": "^6.0.7",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.5.1",
+    "autoprefixer": "^10.4.20"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "mcp-router",
+  "version": "0.1.0",
+  "description": "MCP router that proxies and aggregates upstream MCP servers",
+  "author": {
+    "name": "AI Infrastructure",
+    "url": "https://gitlab.adsrvr.org/thetradedesk/teams/aiinfra/claudeplugins"
+  }
+}

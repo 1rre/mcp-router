@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "McpRouter": {
+      "url": "http://localhost:6767"
+    }
+  }
+}
